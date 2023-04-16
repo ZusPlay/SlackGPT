@@ -6,7 +6,6 @@
 
 # .txt files
 logfile.txt
-template.txt
 
 # Cache
 __pycache__/
