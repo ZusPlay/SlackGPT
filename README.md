@@ -36,6 +36,7 @@ and select the "Add features and functionality" item, where we see a list of con
 Go to the "Permissions" category. Here we need the "Scopes" category where we see the dropdown,
 where it says "Add permission by Scope or API method...", click on it and select there
 "chat:write" and "chat:write.public".
+###### UPD: This list also needs "channels:history" to reply to the thread's main message.
 
 ![Example 3](https://i.imgur.com/Laynk27.png)
 

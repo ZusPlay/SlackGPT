@@ -24,6 +24,6 @@ gpt_chain = LLMChain(
         model=os.getenv('ai_model'),
     ),
     prompt=prompt,
-    memory=ConversationBufferWindowMemory(k=int(os.getenv('buffer_message_count'))),  # 2 message memory
+    memory=ConversationBufferWindowMemory(k=int(os.getenv('buffer_message_count'))),
     verbose=False,  # Logging to console
 )
