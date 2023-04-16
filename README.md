@@ -1,17 +1,46 @@
-#slackbot
+# SlackBot
 
 ## Content
 <ul>
+    <li><a href="#features">Features</a></li>
+    <ul>
+        <li><a href="#ask-a-question-in-the-bot-chat">Ask a question in the bot chat</a></li>
+        <li><a href="#ask-questions-in-the-topic">Ask questions in the topic</a></li>
+        <li><a href="#ask-a-main-topic-question">Ask a main topic question</a></li>
+    </ul>
     <li><a href="#create-an-app-in-slack">Create an app in Slack</a></li>
     <li><a href="#setting-up-the-env-file">Setting up the env file</a></li>
-    <ul><li><a href="#slack_bot_token">slack_bot_token</a></li></ul>
-    <ul><li><a href="#slack_app_token">slack_app_token</a></li></ul>
-    <ul><li><a href="#openai_api_key">openai_api_key</a></li></ul>
-    <ul><li><a href="#ai_model">ai_model</a></li></ul>
-    <ul><li><a href="#buffer_message_count">buffer_message_count</a></li></ul>
-    <ul><li><a href="#template_path">template_path</a></li></ul>
-    <ul><li><a href="#logfile_path">logfile_path</a></li></ul>
+    <ul>
+        <li><a href="#slack_bot_token">slack_bot_token</a></li>
+        <li><a href="#slack_app_token">slack_app_token</a></li>
+        <li><a href="#openai_api_key">openai_api_key</a></li>
+        <li><a href="#ai_model">ai_model</a></li>
+        <li><a href="#buffer_message_count">buffer_message_count</a></li>
+        <li><a href="#template_path">template_path</a></li>
+        <li><a href="#logfile_path">logfile_path</a></li>
+    </ul>
 </ul>
+
+## Features
+
+### Ask a question in the bot chat:
+
+You have the opportunity to ask a question in private messages of the bot. For example:
+
+![Example 1](https://i.imgur.com/g7s9NXp.png)
+
+### Ask questions in the topic:
+
+You have the opportunity to ask a question in the channel by mentioning it. For example "@SlackGPT ...":
+
+![Example 2.1](https://i.imgur.com/aqdwqAL.png)
+![Example 2.2](https://i.imgur.com/LygjNWh.png)
+
+### Ask a main topic question:
+
+You have the opportunity to ask the bot if you need an answer to the main topic. For example:
+
+![Example 3](https://i.imgur.com/XrnulaD.png)
 
 ## Create an app in Slack
 
@@ -160,4 +189,4 @@ Assistant:
 
 The `logfile_path` is the path to the logfile, which is used to log errors and warnings.
 
-Проблема со скриншотом(-ами)? Весь список скриншотов можно найти [тут](https://imgur.com/a/f4VwPL3).
+Problem with screenshot(s)? The entire list of screenshots can be found [here](https://imgur.com/a/mBWL3nK) or [here](https://imgur.com/a/f4VwPL3).
