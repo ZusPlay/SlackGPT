@@ -1,0 +1,12 @@
+# Dev folders
+.idea/
+
+# Env files
+.env
+
+# .txt files
+logfile.txt
+template.txt
+
+# Cache
+__pycache__/
